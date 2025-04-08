@@ -1,0 +1,36 @@
+.animacion1{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: ejemplo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ejemplo {
+    0% {background-color: red; left: 0px; top: 0px;}
+
+    50% {background-color: yellowgreen; left: 200px;}
+    100% {background-color: red; left: 0;}
+    
+}
+
+.animacion2{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: ejemplo2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes ejemplo2 {
+    0% {background-color: red; left: 0px; top: 0px;}
+    25%{background-color: blue; left: 0px; top: 200px;}
+    50% {background-color: yellowgreen; left: 200px; top: 200px;}
+    75%{background-color: yellow; left: 0px; top: 0%;}
+    100% {background-color: red; left: 0;}
+}

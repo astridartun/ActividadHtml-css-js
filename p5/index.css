@@ -1,0 +1,30 @@
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.p1{
+    text-decoration: underline;
+    color: green;
+}
+
+.p2{
+    color: red;
+}
+
+.p6{
+    text-decoration: underline overline;
+}
+
+.p3{
+    font-weight: bold;
+    font-size: 30pt;
+}
+
+.p4{
+    color: blue;
+}
+
+.p5{
+    color: red;
+    text-decoration: underline;
+}

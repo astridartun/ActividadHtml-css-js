@@ -1,0 +1,9 @@
+.formulario :required{
+    border: 1px rgb(94, 79, 65) gray;
+}
+
+.formulario :valid{
+    background-color: burlywood;
+    border: 1px;
+    
+}

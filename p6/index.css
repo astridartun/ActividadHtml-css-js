@@ -1,0 +1,15 @@
+#marca:link{
+    color:green
+}
+
+a#marca:hover{
+    color: yellow;
+}
+
+#as:link{
+    color:purple
+}
+
+a#as:hover{
+    color: red;
+}
